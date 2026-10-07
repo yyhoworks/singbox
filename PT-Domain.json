@@ -1,49 +1,36 @@
 {
-  "route": {
-    "rule_set": [
-      {
-        "type": "inline",
-        "tag": "my-pt-sites",
-        "rules": [
-          {
-            "domain_suffix": [
-              "hdsky.me",
-              "ourbits.club",
-              "springsunday.net",
-              "audiences.me",
-              "hddolby.com",
-              "ptchdbits.co",
-              "totheglory.im",
-              "keepfrds.com",
-              "hdhome.org",
-              "dmhy.org",
-              "azusa.wiki",
-              "htpt.cc",
-              "ultrahd.net",
-              "open.cd",
-              "zhuque.in",
-              "kamept.com",
-              "monikadesign.uk",
-              "zmpt.cc",
-              "tjupt.org",
-              "pttime.org",
-              "jpopsuki.eu",
-              "ubits.club",
-              "m-team.cc",
-              "sunnypt.top",
-              "qingwapt.com",
-              "pterclub.net",
-              "hhanclub.net"
-            ]
-          }
-        ]
-      }
-    ],
-    "rules": [
-      {
-        "rule_set": "my-pt-sites",
-        "outbound": "direct"
-      }
-    ]
-  }
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "hdsky.me",
+        "ourbits.club",
+        "springsunday.net",
+        "audiences.me",
+        "hddolby.com",
+        "ptchdbits.co",
+        "totheglory.im",
+        "keepfrds.com",
+        "hdhome.org",
+        "dmhy.org",
+        "azusa.wiki",
+        "htpt.cc",
+        "ultrahd.net",
+        "open.cd",
+        "zhuque.in",
+        "kamept.com",
+        "monikadesign.uk",
+        "zmpt.cc",
+        "tjupt.org",
+        "pttime.org",
+        "jpopsuki.eu",
+        "ubits.club",
+        "m-team.cc",
+        "sunnypt.top",
+        "qingwapt.com",
+        "pterclub.net",
+        "hhanclub.net"
+      ]
+    }
+  ]
 }
